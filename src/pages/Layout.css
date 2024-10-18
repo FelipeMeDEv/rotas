@@ -1,0 +1,41 @@
+/* Fundo com gradiente de roxo para preto */
+body {
+    background: linear-gradient(to bottom, purple, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do contêiner principal */
+nav {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo dos links como botões */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: darkviolet;
+}
